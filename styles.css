@@ -1,0 +1,71 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar1{
+    background-color: orange;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.navbar1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.college_name{
+    text-align: center;
+}
+
+.college_name h1{
+    color: #154391;
+}
+
+.college_name a{
+    text-decoration: none;
+    color: red;
+}
+
+.navbar2{
+    background-color: rgb(0, 191, 255);
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.navbar2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.information{
+    margin-left: 30%;
+    text-align: justify;
+    width: 40%;
+}
+
+.information h2{
+    color: #154391;
+    font-weight: 500;
+}
+
+.information a{
+    text-decoration: none;
+    color: #00796B;
+}
+
+.information p{
+    text-align: justify;
+    color: #154391;
+}
+
+.information ol{
+    color: #154391;
+}
+
+strong{
+    color: #FF5722;
+}
