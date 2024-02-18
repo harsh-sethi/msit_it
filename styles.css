@@ -1,22 +1,27 @@
 body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #ECECEC;
 }
 
 .navbar1{
     background-color: orange;
-    font-weight: 600;
+    font-weight: 550;
     display: block;
     text-align: center;
-    justify-content: space-around;
+    padding: 5px 0;
 }
 
 .navbar1 a{
     text-decoration: none;
     color: black;
+    margin-right: 5px;
 }
 
 .college_name{
     text-align: center;
+    background-color: white;
+    margin: 5px 0;
+    border: 5px solid white;
 }
 
 .college_name h1{
@@ -28,23 +33,51 @@ body{
     color: red;
 }
 
+.college_name p{
+    text-decoration: none;
+    color: red;
+}
+
+.college_name img{
+    margin-top: 0.5em;
+    height: 100px;
+}
+
 .navbar2{
-    background-color: rgb(0, 191, 255);
+    background-color: #098CC4;
     font-weight: 600;
     display: block;
-    text-align: center;
-    justify-content: space-around;
+    /* text-align: center; */
+    padding: 20px 130px;
 }
 
 .navbar2 a{
     text-decoration: none;
     color: white;
+    margin: 34px;
+}
+
+.navbar3{
+    background-color: #098CC4;
+    font-weight: 600;
+    display: block;
+    padding: 20px 130px;
+}
+
+.navbar3 a{
+    text-decoration: none;
+    color: white;
+    margin: 34px;
 }
 
 .information{
-    margin-left: 30%;
+    margin-top: 20px;
+    margin-left: 15%;
     text-align: justify;
-    width: 40%;
+    width: 50%;
+    padding: 10%;
+    background-color: white;
+    border-radius: 15px;
 }
 
 .information h2{
@@ -55,6 +88,19 @@ body{
 .information a{
     text-decoration: none;
     color: #00796B;
+}
+
+.information span{
+    text-decoration: none;
+    color: #00796B;
+    padding-right: 20px;
+    border: 2px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.prog_desc{
+    background-color: lightgray;
 }
 
 .information p{
